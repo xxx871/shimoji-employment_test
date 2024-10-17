@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     alias: {
@@ -25,7 +25,7 @@ module.exports = {
         test: /\.png$/,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[hash][ext][query]'
+          filename: 'assets/[hash][ext][query]'
         }
       },
       {
