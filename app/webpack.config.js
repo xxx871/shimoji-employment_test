@@ -46,7 +46,11 @@ module.exports = {
             target: 'es2015'
           }
         }
-      }
+      },
+      {
+        test: /\.md$/,
+        type: 'asset/source'
+      },
     ]
   },
   plugins: [
