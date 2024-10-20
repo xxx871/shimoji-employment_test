@@ -55,6 +55,8 @@ const handleHackerNewsClick = () => {
   background: none;
   border: none;
   font: inherit;
+  color: var(--sidebar-text);
+  cursor: pointer;
 }
 
 .menu button:hover {
