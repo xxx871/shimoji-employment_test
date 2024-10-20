@@ -2,12 +2,14 @@
   --body-background: #1c1c1e;
   --main-text: #d4d4d4;
   --link-color: #9cdcfe;
+  --sidebar-text: #d4d4d4;
 }
 
 [data-theme='light'] {
   --body-background: #ffffff;
   --main-text: #000000;
   --link-color: #0451a5;
+  --sidebar-text: #000000;
 }
 
 body {

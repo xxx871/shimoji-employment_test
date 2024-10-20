@@ -1,7 +1,6 @@
 <script setup>
-
+import ThemeToggle from '../atoms/ThemeToggle.vue';
 import SocialIconGroup from '../molecules/SocialIconGroup.vue';
-
 </script>
 
 <template>
@@ -9,6 +8,7 @@ import SocialIconGroup from '../molecules/SocialIconGroup.vue';
     <p>ヘッダー</p>
     <div class="header-actions">
       <SocialIconGroup />
+      <ThemeToggle />
     </div>
   </header>
 </template>
@@ -28,5 +28,12 @@ header p {
   margin-right: auto;
   margin-top: 0px;
   margin-left: 5px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
 }
 </style>
